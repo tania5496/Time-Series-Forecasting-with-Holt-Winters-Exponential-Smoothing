@@ -8,6 +8,16 @@ This project explores **time series forecasting** using the Holt-Winters exponen
 4. Evaluate model accuracy using MSE.
 5. Generate forecasts for the next 24 months with visualization.
 
+# Data
+The dataset used in this project is the **Passenger Data for Time Series Analysis** from [Kaggle](https://www.kaggle.com/datasets/ashfakyeafi/air-passenger-data-for-time-series-analysis).\
+It contains the monthly total number of airline passengers from **January 1949 to December 1960** (144 observations).
+
+**Frequency:** Monthly\
+**Variables:**
+* *Month* – date of observation
+* *Passengers* – number of airline passengers
+
+
 # Results
 * Trend and 12-month seasonality were identified in the data
 * The multiplicative Holt-Winters model provided the most accurate forecasts
